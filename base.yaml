@@ -32,6 +32,6 @@ run_date:
   required: True
   
 extended_properties:
-  type: dict
+  type: Dict
   required: False
   empty: True
