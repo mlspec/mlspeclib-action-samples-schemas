@@ -28,7 +28,7 @@ cpu_per_node:
   required: True
 
 ram_per_node:
-  type: int
+  type: string
   required: True
 
 gpu_required:
