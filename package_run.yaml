@@ -26,11 +26,11 @@ container_registry:
   type: URI
   required: True
 
-agent-pool:
+agent_pool:
   type: String
   required: True
 
-build-args:
+build_args:
   type: List
   required: True
   empty: True

@@ -30,3 +30,8 @@ run_date:
   # Execution datetime of a step in UTC
   type: datetime
   required: True
+
+extended_properties:
+  type: dict
+  required: False
+  empty: True
