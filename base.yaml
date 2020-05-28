@@ -18,7 +18,7 @@ schema_type:
 
 run_id:
   # Unique identifier for the execution of the entire workflow (designed to tie all steps together)
-  type: uuid
+  type: string
   required: True
 
 step_id:
