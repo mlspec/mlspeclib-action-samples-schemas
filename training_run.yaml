@@ -64,3 +64,10 @@ training_params:
     other_tags:
       type: dict
       required: True
+base_image:
+  type: string
+  required: True
+
+machine_type:
+  type: string
+  required: True
