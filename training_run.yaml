@@ -56,12 +56,18 @@ training_params:
       type: float
       required: True
     optimizer:
+      # Momentum
       type: list_strings
       required: True
     train_op:
       type: string
       required: True
     other_tags:
+      #variable_update=replicated
+      #gradient_repacking=8
+      #num_gpus=2
+      #num_batches=10000
+      # weight_decay=1e-4
       type: dict
       required: True
 base_image:
@@ -71,3 +77,4 @@ base_image:
 machine_type:
   type: string
   required: True
+

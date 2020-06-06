@@ -46,3 +46,4 @@ base_image:
 machine_type:
   type: string
   required: True
+

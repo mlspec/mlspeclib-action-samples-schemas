@@ -26,3 +26,8 @@ source_id:
 source_uri:
   type: URI
   required: True
+
+data_format:
+  # Example: NCHW
+  type: String
+  required: True
