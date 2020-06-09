@@ -28,6 +28,15 @@ bias_in_source_data:
   type: float
   required: True
 
+top_features_affecting_performance:
+  type: list
+  required: True
+
+# Data bias explorer
+# Global and local explanations (Top k important factors affecting model's predictions)
+# Disparity in performance/error rates/selection rates among protected attributes' subclasses (e.g., female vs. male vs. non-binary gender)
+# Feature perturbations such as what if analysis, Individual expectation plots
+
 execution_profile:
   type: nested
   schema:
