@@ -4,11 +4,11 @@ mlspec_base_type:
 
 mlspec_schema_version:
   # Identifies the version of this schema
-  meta: 500.0.1
+  meta: 2.1.0
 
 mlspec_schema_type:
   # Identifies the type of this schema
-  meta: data_process_run
+  meta: feature_engineering_run
 
 schema_version:
   # Identifies version of MLSpec to use to instantiate

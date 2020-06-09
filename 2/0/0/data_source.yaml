@@ -4,13 +4,14 @@ mlspec_base_type:
 
 mlspec_schema_version:
   # Identifies the version of this schema
-  meta: 500.0.1
+  meta: 2.0.0
 
 mlspec_schema_type:
   # Identifies the type of this schema
-  meta: package_run
+  meta: data_source
 
 schema_version:
+  # Identifies version of MLSpec to use to instantiate
   type: semver
   required: True
 
@@ -18,23 +19,15 @@ schema_type:
   type: string
   required: True
 
-model_source:
-  type: path
+source_id:
+  type: string
   required: True
 
-container_registry:
+source_uri:
   type: URI
   required: True
 
-agent_pool:
+data_format:
+  # Example: NCHW
   type: String
-  required: True
-
-build_args:
-  type: List
-  required: True
-  empty: True
-
-secrets:
-  type: dict
   required: True
