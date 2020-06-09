@@ -4,11 +4,11 @@ mlspec_base_type:
 
 mlspec_schema_version:
   # Identifies the version of this schema
-  meta: 2.1.0
+  meta: 2.2.0
 
 mlspec_schema_type:
   # Identifies the type of this schema
-  meta: responsible_ai_result
+  meta: serve_result
 
 schema_version:
   # Identifies version of MLSpec to use to instantiate
@@ -19,23 +19,13 @@ schema_type:
   type: string
   required: True
 
-# https://towardsdatascience.com/is-your-machine-learning-model-biased-94f9ee176b67
-disparate_impact:
-  type: float
+serving_endpoint:
+  type: URI
   required: True
 
-bias_in_source_data:
-  type: float
+serving_port:
+  type: int
   required: True
-
-top_features_affecting_performance:
-  type: list
-  required: True
-
-# Data bias explorer
-# Global and local explanations (Top k important factors affecting model's predictions)
-# Disparity in performance/error rates/selection rates among protected attributes' subclasses (e.g., female vs. male vs. non-binary gender)
-# Feature perturbations such as what if analysis, Individual expectation plots
 
 execution_profile:
   type: nested

@@ -36,6 +36,10 @@ loss:
   type: float
   required: True
 
+time_finished:
+  type: datetime
+  required: True
+
 execution_profile:
   type: nested
   schema:
