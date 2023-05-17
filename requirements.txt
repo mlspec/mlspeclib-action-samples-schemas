@@ -10,6 +10,6 @@ python-box==3.4.6
 pyyaml==5.3.1
 semver==2.10.1
 six==1.15.0
-tornado==5.1.1
+tornado==6.3.2
 uritools==2.2.0
 wheel==0.34.2
