@@ -5,11 +5,12 @@ ipaddress==1.0.23 ; python_version == '2.7'
 isodate==0.6.0
 marshmallow==2.21.0
 mlspeclib==0.0.25
-pymysql==0.9.3
+pymysql==1.1.1
 python-box==3.4.6
 pyyaml==5.4
 semver==2.10.1
 six==1.15.0
-tornado==5.1.1
+tornado==6.3.2
 uritools==2.2.0
 wheel==0.38.0
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
